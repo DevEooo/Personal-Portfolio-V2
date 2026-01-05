@@ -10,10 +10,10 @@ interface CurvedLoopProps {
 }
 
 const CurvedLoop: FC<CurvedLoopProps> = ({
-  marqueeText = '',
+  marqueeText = 'Halo Semua',
   speed = 2,
   className,
-  curveAmount = 400,
+  curveAmount = 0,
   direction = 'left',
   interactive = true
 }) => {
